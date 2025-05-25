@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+</head>
+<body>
+
+    <div class="current-time" id="currentTime"></div>
+
+    <nav>
+        <ul>
+            <li><a href="#about">Обо мне</a></li>
+            <li><a href="#education">Образование</a></li>
+            <li><a href="#achievements">Достижения</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#contact">Контакты</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <h2>Обо мне</h2>
+            <div class="content">
+                <img src="ава.jpg" alt="" class="profile-img">
+                <div class="about-text">
+                    <p><strong>ФИО:</strong> Домашина Александра Борисовна</p>
+                    <p><strong>Группа:</strong> 324</p>
+                    <p><strong>Специальность:</strong> Информационные системы и программирование</p>
+                    <p><strong>Профиль:</strong> Администратор баз данных</p>
+                    <p>Я студентка Амурского педагогического колледжа, обучаюсь по специальности "Администратор баз данных". В рамках программы изучаю основы работы с базами данных, их проектирование и администрирование, а также сопутствующие технологии.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h2>Образование</h2>
+            <div class="education-info">
+                <h3>ГПОАУ АО "Амурский педагогический колледж"</h3>
+                <p><strong>Полное наименование:</strong> Государственное профессиональное образовательное автономное учреждение Амурской области «Амурский педагогический колледж»</p>
+                <p><strong>Сокращенное наименование:</strong> ГПОАУ АО АПК</p>
+                <p><strong>Адрес сайта:</strong> <a href="https://apk28.ru" target="_blank">apk28.ru</a></p>
+                <p><strong>E-mail:</strong> <a href="blg_prof_apk@obramur.ru">blg_prof_apk@obramur.ru</a></p>
+                <p><strong>Год поступления:</strong> 2022</p>
+                <p><strong>Срок обучения:</strong> 3 года 10 месяцев</p>
+            </div>
+        </section>
+
+        <section id="achievements" class="section">
+            <h2>Мои достижения</h2>
+            <div class="gallery-container">
+                <div class="image-container">
+                    <img src="достижения/фото 1.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 2.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 3.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 4.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 5.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 6.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 7.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 8.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 9.jpg" alt="" class="gallery-img">
+                    <img src="достижения/фото 10.jpg" alt="" class="gallery-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section">
+            <h2>Фотогалерея</h2>
+            <div class="gallery-container">
+                <div class="image-container">
+                    <img src="галерея\фото1.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото2.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото3.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото4.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото5.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото6.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото7.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото8.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото9.jpg" alt="" class="gallery-img">
+                    <img src="галерея\фото10.jpg" alt="" class="gallery-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>Контакты</h2>
+            <div class="contact-info">
+                <p>Телефон: <a href="tel:+79241234567">+7 (914) 562-84-20</a></p>
+                <p>Email: <a href="gmailto:domasinasasa2@gmail.com">domasinasasa2@gmail.com</a></p>
+                <p>ВКонтакте: <a href="https://vk.com/alexksus" target="_blank">vk.com/alexksus</a></p>
+            </div>
+        </section>
+    </main>
+
+    <button id="scrollToTopBtn" title="Наверх">↑</button>
+
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
